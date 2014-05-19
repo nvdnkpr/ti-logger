@@ -1,0 +1,40 @@
+{
+  "name": "ti-logger",
+  "version": "0.0.1",
+  "description": "Logging module for both Appcelerator Titanium & node.js",
+  "keywords": [
+    "titanium",
+    "appcelerator",
+    "alloy"
+  ],
+  "homepage": "git://github.com/tonylukasavage/ti-logger.git",
+  "bugs": {
+    "url": "https://github.com/tonylukasavage/ti-logger/issues",
+    "email": "anthony.lukasavage@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Tony Lukasavage",
+    "email": "anthony.lukasavage@gmail.com",
+    "url": "http://tonylukasavage.com"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tonylukasavage/ti-logger.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-mocha-test": "~0.10.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "should": "~3.3.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
